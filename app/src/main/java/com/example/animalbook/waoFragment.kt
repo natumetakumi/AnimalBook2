@@ -17,7 +17,7 @@ class waoFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_wao, container, false)
+        return inflater.inflate(R.layout.fragment_lion, container, false)
     }
 
 

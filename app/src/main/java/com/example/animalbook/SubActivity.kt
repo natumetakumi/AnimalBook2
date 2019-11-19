@@ -10,7 +10,7 @@ class SubActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sub)
 
-        waoButton.setOnClickListener {
+        lionButton.setOnClickListener {
             val fragment = waoFragment()
             val fragmentManager = this.getSupportFragmentManager()
             val fragmentTransaction = fragmentManager.beginTransaction()
